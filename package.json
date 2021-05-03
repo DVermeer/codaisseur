@@ -1,0 +1,19 @@
+{
+  "name": "codaisseur",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index.html"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DVermeer/codaisseur.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DVermeer/codaisseur/issues"
+  },
+  "homepage": "https://github.com/DVermeer/codaisseur#readme"
+}
