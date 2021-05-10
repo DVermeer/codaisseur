@@ -1,22 +1,17 @@
 <html>
     <head>
         <link href="styles/index.css" rel="stylesheet">
-        <script src="app.js">document.getElementById("addToDo").innerHTML.onsubmit = function() {addToDo()};
-
-            function addToDo(newToDo){
-                console.log("Add new ToDo:" + newToDo)
-            }</script>
-        <title>Todo list</title>
+        
+        <title>To do list</title>
     </head>
     <body>
         <h1>Welkom op mijn To Do lijst</h1>
-        <p>
-            <form id="addToDo">
-                <label>Nieuwe Todo:</label>
-                <input type="text" id="name">
-                <input type="submit" value="Submit">
-            </form>
+        <div>
             
+                <label>Nieuwe Todo:</label>
+                <input type="text" id="inputfield">
+                <button id="addToDo">Toevoegen</button>>
+                       
             <ul>
                 <li>Boodschappen</li>
                 <li>Wassen</li>
@@ -24,6 +19,7 @@
                 <li>Melvin in Elkaar slaan;)</li>
                 <li>Borrelen met Veerle</li>
             </ul>
-        </p>
+        </div>
+        <script src="app.js"></script>
     </body>
 </html>
