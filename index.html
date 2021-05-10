@@ -1,7 +1,11 @@
 <html>
     <head>
         <link href="styles/index.css" rel="stylesheet">
-        <script src="app.js"></script>
+        <script src="app.js">document.getElementById("addToDo").innerHTML.onsubmit = function() {addToDo()};
+
+            function addToDo(newToDo){
+                console.log("Add new ToDo:" + newToDo)
+            }</script>
         <title>Todo list</title>
     </head>
     <body>
