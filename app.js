@@ -1,6 +1,6 @@
 console.log("Welcome ToDo")
 
-document.getElementById("addToDo").onsubmit = function() {addToDo()};
+document.getElementById("addToDo").innerHTML.onsubmit = function() {addToDo()};
 
 function addToDo(newToDo){
     console.log("Add new ToDo:" + newToDo)
