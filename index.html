@@ -7,18 +7,15 @@
     <body>
         <h1>Welkom op mijn To Do lijst</h1>
         <div>
-            
-                <label>Nieuwe Todo:</label>
-                <input type="text" id="inputfield">
-                <button id="addToDo">Toevoegen</button>>
-                       
-            <ul>
-                <li>Boodschappen</li>
-                <li>Wassen</li>
-                <li>Strijken</li>
-                <li>Melvin in Elkaar slaan;)</li>
-                <li>Borrelen met Veerle</li>
-            </ul>
+            <form>
+                <input type="text" id="newToDo" placeholder="What needs to be done?">
+                <input type="submit" value="ADD">
+            </form>
+                <ul id="todoList">
+                    <li><input type="checkbox">Sweep the floor</li>
+                    <li><input type="checkbox">Dust the vases</li>
+                </ul>    
+           
         </div>
         <script src="app.js"></script>
     </body>
