@@ -6,9 +6,12 @@ function createTodo(title) {
   // create a label
   const label = document.createElement("label");
   // create a checkbox
+  const cb = document.createElement("input");
+  cb.type = "checkbox";
 
   // add the "change" event listener to the checkbox
   // and append the checkbox to the label
+  label.appendChild(cb);
 
   // create a text node with the given title
   var labelText = document.createTextNode(title);
