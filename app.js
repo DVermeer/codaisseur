@@ -38,9 +38,13 @@ document
 function updateCounters() {
   // declare a variable that contains the "Total" counter element
   var totalCount = document.querySelectorAll("li");
+  console.log("Total Amount: " + totalCount);
   // declare a variable that contains the number of todos, by counting how many elements have a specific classname / attribute
-  var countToDo = 0;
-  var countDone = 0;
+  var countDone = document.querySelector(".itemsDone");
+  console.log("Done: " + countDone);
+  var countToDo = document.querySelector(".itemsToDo");
+  console.log("To Do: " + countToDo);
   // update the HTML inside the counter element with the number of todos
+  document.querySelector(".totalCounter");
 }
 updateCounters();
